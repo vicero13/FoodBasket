@@ -1,6 +1,14 @@
 <resources>
-    <string name="app_name">Корзинка</string>
-    <string name="add_products">Добавьте товары, чтобы не забыть купить, когда будете в магазине</string>
+    <string name="app_name">FoodBasket</string>
+    <string name="add_products">Add products</string>
+    <string name="inputEmail">Email</string>
+    <string name="inputPassword">Password</string>
+    <string name="sign_up">Sign up<u>underlined text</u></string>
+    <string name="sign_in">Sign in</string>
+    <string name="tv_signUp"><u>SignUp</u></string>
+    <string name="tv_create_a_new_account">Create a new account?</string>
+    <string name="tv_login">Login</string>
+    <string name="main_activity">Main Activity</string>
 
 
 </resources>

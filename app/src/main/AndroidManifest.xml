@@ -23,10 +23,20 @@
         </activity>
 
         <activity
-            android:name=".activities.MainActivity"
+            android:name=".activities.LoginActivity"
             android:label="@string/app_name">
             <intent-filter>
-                <action android:name="com.vicero13.foodbasket.MainActivity" />
+                <action android:name="com.vicero13.foodbasket.activities.LoginActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.SignUpActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.vicero13.foodbasket.activities.SignUpActivity" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

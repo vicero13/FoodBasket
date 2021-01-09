@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="inputEmail">Введите почту</string>
+    <string name="inputPassword">Введите пароль</string>
+    <string name="sign_up">Зарегистрироваться</string>
+    <string name="sign_in">Войти</string>
+    <string name="tv_signUp">SignUp</string>
+    <string name="tv_login">Login</string>
+    <string name="main_activity">Main Activity</string>
+</resources>

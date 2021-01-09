@@ -1,16 +1,15 @@
 package com.vicero13.foodbasket.activities;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class SplashScreen extends AppCompatActivity {
+import com.vicero13.foodbasket.R;
 
-    @Override
+public class SignUpActivity extends AppCompatActivity {
+
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        startActivity(new Intent(this, LoginActivity.class));
-
+        setContentView(R.layout.sign_up_activity);
     }
 }
